@@ -26,13 +26,13 @@ body {
 
 .tree_branch {
   background: #b6f533;
-  background: -moz-linear-gradient(top, #fff 5%, #f1f1f1 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #fff), color-stop(100%, #f1f1f1));
-  background: -webkit-linear-gradient(top, #fff 5%, #f1f1f1 100%);
-  background: -o-linear-gradient(top, #fff 5%, #f1f1f1 100%);
-  background: -ms-linear-gradient(top, #fff 5%, #f1f1f1 100%);
-  background: linear-gradient(top, #fff 5%, #f1f1f1 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#f1f1f1',GradientType=0 );
+  background: -moz-linear-gradient(top, #b6f533 5%, #94cf15 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #b6f533), color-stop(100%, #94cf15));
+  background: -webkit-linear-gradient(top, #b6f533 5%, #94cf15 100%);
+  background: -o-linear-gradient(top, #b6f533 5%, #94cf15 100%);
+  background: -ms-linear-gradient(top, #b6f533 5%, #94cf15 100%);
+  background: linear-gradient(top, #b6f533 5%, #94cf15 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b6f533', endColorstr='#94cf15',GradientType=0 );
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   border-radius: 100px;
