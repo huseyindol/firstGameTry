@@ -1,0 +1,39 @@
+.fruitbox {
+  position: absolute;
+  width: 230px;
+  height: 218px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  z-index: 3;
+}
+
+$fruit: 10;
+
+@for $i from 1 through $fruit {
+  $top: random(80) * 1%;
+  $left: (random(80)-40) * 1%;
+
+  .fruit:nth-of-type(#{$i}) {
+    animation-name: fruit-#{$i};
+    left: $left;
+    top: $top;
+    opacity: 1;
+    background: #f01;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    position: relative;
+  }
+
+  @keyframes fruit-#{$i} {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
